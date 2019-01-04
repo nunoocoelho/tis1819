@@ -14,7 +14,7 @@ void main() {
     letra = 'A';
     if( horas > 12 ) {
       horas -= 12;
-      letra = 'M';
+      letra = 'P';
     }
     printf( "\n  Resultado (horas) > %d:%d %cM", horas, minutos, letra);
   }
